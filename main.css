@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body > header{
+    background-color: grey;
+    padding: 16px 0;
+    color: bisque;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;   
+    
+}
+
+header li a {
+    color: bisque;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+header li {
+    display: inline;
+    
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto ;
+    
+    
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    width: 400px;
+    height: 273px;
+    
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 90px;
+
+    
+}
+
+section h2, .article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.article article a {
+    background-color: rgb(93, 117, 92);
+    color: antiquewhite ;
+    padding: 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}   
+
+.article article a:hover {
+    text-decoration: underline;
+
+}
+
+.article article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgb(169, 189, 169)
+}
+
+#sports .article article a {
+    background-color: rgb(12, 153, 75);
+}
+
+#economy {
+    background-color: rgb(207, 178, 157);
+}
+
+#economy .article article a {
+    background-color: rgb(85, 83, 80);
+}
+
+#tecnologia {
+    background-color: rgb(125, 76, 172);
+}
+
+#tecnologia .article article a {
+    background-color: rgb(27, 25, 22);
+}
+
+#entreterimento {
+    background-color: antiquewhite;
+}
+
+#entreterimento .article article a {
+    background-color: brown;
+}
